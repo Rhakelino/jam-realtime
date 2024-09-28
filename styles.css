@@ -71,3 +71,10 @@
     transform: rotate(calc(var(--rotation) * 1deg)) translate(120px) rotate(calc(var(--rotation) * -1deg));
   }
   
+  .hand.second {
+    width: 2px;
+    height: 120px;
+    background-color: red; /* Warna untuk jarum detik */
+    z-index: 1;
+  }
+  
